@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="home">
+        <div id="nav">
+          <img class="magnet" src="images.png" alt="" />
+          <div id="maindiv">
+            <a href="#featured">Featured Internships</a>
+            <a href="#Categories">Categories</a>
+            <a href="#application">Application Details</a>
+
+            <i class="ri-message-2-fill"></i>
+            <i class="ri-notification-2-fill"></i>
+            <button onclick="toggleLogin()" class="login">Login</button>
+            <button class="register">Register</button>
+            <i class="ri-menu-line magnet"></i>
+          </div>
+        </div>
+        <div id="search">
+          <i class="ri-search-line"></i>
+          <input
+            id="job"
+            type="search"
+            placeholder="Internship title, Keywords "
+          />
+          <div class="line"></div>
+          <i class="ri-map-pin-fill"></i>
+          <input
+            id="location"
+            type="search"
+            placeholder="City, States, Zip Code"
+          />
+          <button>Find Jobs</button>
+        </div>
+        <div id="homemain">
+          <h1>We make it happen</h1>
+          <div id="headings">
+            <h1 class="hvr">Internships</h1>
+            <h1 class="hvr">Opportunity</h1>
+            <h1 class="hvr">Board</h1>
+          </div>
+        </div>
+        <div id="homelast">
+          <p>
+            Discover unique opportunities in design, marketing, and more. Click
+            on your preferred internship, review the details, and apply
+            seamlessly. Join us and kickstart your career journey with
+            innovation and creativity!
+          </p>
+        </div>
+      </div>
+
+      <div id="featured">
+        <div class="fheading">
+          <h1>featured</h1>
+          <h1 class="hvr">internships</h1>
+        </div>
+        <div id="fimages">
+          <div id="fleft">
+            <div class="felm">
+              <div id="warning">
+                <h1>Hiring multiple candidates</h1>
+              </div>
+              <strong><a href="">Front End Developer Internship</a></strong>
+              <h3>Easy Entrance Pvt. Ltd.</h3>
+              <h3>Calicut, Kerala</h3>
+              <div id="btndiv">
+                <button>Full-time</button>
+                <button>Day shift</button>
+              </div>
+              <div id="arrow">
+                <i class="ri-arrow-right-double-line"></i>
+                <h2>Easily apply</h2>
+              </div>
+              <ul>
+                <li type="circle">React/React Native(Intrested)</li>
+                <li type="circle">
+                  Should have thorough knowledge in HTML,CSS,Javascript.
+                </li>
+                <li type="circle">Internship Types: Regular</li>
+                <li type="circle">Total work: 6 months(Preferred)</li>
+              </ul>
+
+              <p>Posted 30+ days ago</p>
+            </div>
+            <div class="felm">
+              <div id="warning">
+                <h1>Hiring multiple candidates</h1>
+              </div>
+              <strong
+                ><a href="">Fresher full stack developer at kannur</a></strong
+              >
+              <h3>Salat management</h3>
+              <h3>Cannanore, Kerala</h3>
+              <div id="btndiv">
+                <button>₹9,000 - ₹13,000 a month</button>
+                <button>Full-time</button>
+                <button>Day shift</button>
+              </div>
+              <div id="arrow">
+                <i class="ri-arrow-right-double-line"></i>
+                <h2>Easily apply</h2>
+              </div>
+              <ul>
+                <li type="circle">
+                  Btech, Mtech, MSc, MCA, BSc, BCA, BCom and any degree.
+                </li>
+                <li type="circle">Job Types: Full-time, Part-time, Fresher</li>
+                <li type="circle">Internship Types: Regular</li>
+                <li type="circle">total work: 1 year (Preferred)</li>
+              </ul>
+
+              <p>Posted 30+ days ago</p>
+            </div>
+            <div class="felm">
+              <div id="warning">
+                <h1>Hiring multiple candidates</h1>
+              </div>
+              <strong><a href="">ReactJS Developer Intern</a></strong>
+              <h3>eMoboMo Soft Pvt Ltd</h3>
+              <h3>KPHB Colony, Hyderabad, Telangana</h3>
+              <div id="btndiv">
+                <button>From ₹3,000 a month</button>
+                <button>Full-time</button>
+                <button>Day shift</button>
+              </div>
+              <div id="arrow">
+                <i class="ri-arrow-right-double-line"></i>
+                <h2>Easily apply</h2>
+              </div>
+              <ul>
+                <li type="circle">React/React Native(Intrested)</li>
+                <li type="circle">
+                  In-depth knowledge of JavaScript, CSS, HTML, and front-end
+                  languages.
+                </li>
+                <li type="circle">Internship Types: Regular</li>
+                <li type="circle">Total work: 6 months(Preferred)</li>
+              </ul>
+
+              <p>Posted 30+ days ago</p>
+            </div>
+            <div class="felm">
+              <div id="warning">
+                <h1>Hiring multiple candidates</h1>
+              </div>
+              <strong><a href="">Junior Front End Developer</a></strong>
+              <h3>Sourcedesk Global</h3>
+              <h3>Kolkata, West Bengal</h3>
+              <div id="btndiv">
+                <button>₹2,00,000 - ₹4,00,000 a year</button>
+                <button>Full-time</button>
+                <button>Day shift</button>
+              </div>
+              <div id="arrow">
+                <i class="ri-arrow-right-double-line"></i>
+                <h2>Easily apply</h2>
+              </div>
+              <ul>
+                <li type="circle">Creative approach to problem solving</li>
+                <li type="circle">
+                  Candidate must be willing to work in a busy team environment
+                </li>
+                <li type="circle">Internship Types: Regular</li>
+                <li type="circle">Work 5 days a week.</li>
+              </ul>
+
+              <p>Posted 30+ days ago</p>
+            </div>
+            <div class="felm">
+              <div id="warning">
+                <h1>Hiring multiple candidates</h1>
+              </div>
+              <strong><a href="">C++ Developer - AI/ML - Fresher</a></strong>
+              <h3>Sanfoundry</h3>
+              <h3>Noida, Uttar Pradesh</h3>
+              <div id="btndiv">
+                <button>Full-time</button>
+                <button>Day shift</button>
+              </div>
+              <div id="arrow">
+                <i class="ri-arrow-right-double-line"></i>
+                <h2>Easily apply</h2>
+              </div>
+              <ul>
+                <li type="circle">
+                  Develop, test, and maintain efficient, reusable, and reliable
+                  C/C++ code.
+                </li>
+                <li type="circle">
+                  Participate in code reviews to maintain a high-quality
+                  codebase.
+                </li>
+                <li type="circle">Internship Types: Regular</li>
+                <li type="circle">Total work: 6 months(Preferred)</li>
+              </ul>
+
+              <p>Posted 30+ days ago</p>
+            </div>
+            <div class="felm">
+              <div id="warning">
+                <h1>Hiring multiple candidates</h1>
+              </div>
+              <strong><a href="">Web Designer (HTML)</a></strong>
+              <h3>Soft Web App</h3>
+              <h3>Jaipur, Rajasthan</h3>
+              <div id="btndiv">
+                <button>Full-time</button>
+                <button>Day shift</button>
+              </div>
+              <div id="arrow">
+                <i class="ri-arrow-right-double-line"></i>
+                <h2>Easily apply</h2>
+              </div>
+              <ul>
+                <li type="circle">
+                  We are hiring with min. 6 month experience web designer.
+                </li>
+                <li type="circle">
+                  Expert knowledge of HTML 4.0, HTML 5.0 XHTML, DHTML ,CSS and
+                  JavaScript; Strong knowledge of web standards is a must.
+                </li>
+                <li type="circle">Internship Types: Regular</li>
+                <li type="circle">Total work: 6 months(Preferred)</li>
+              </ul>
+
+              <p>Posted 30+ days ago</p>
+            </div>
+            <div class="felm">
+              <strong><a href="">Software internship</a></strong>
+              <h3>Soften Technologies</h3>
+              <h3>Ernakulam, Kerala</h3>
+              <div id="btndiv">
+                <button>₹8,000 - ₹12,000 a month</button>
+                <button>Full-time</button>
+                <button>Day shift</button>
+              </div>
+              <div id="arrow">
+                <i class="ri-arrow-right-double-line"></i>
+                <h2>Easily apply</h2>
+              </div>
+              <ul>
+                <li type="circle">
+                  Eligibility - Both male and female freshers can apply
+                </li>
+                <li type="circle">Last date- 15/01/2024.</li>
+                <li type="circle">Internship Types: Regular</li>
+                <li type="circle">Total work: 6 months(Preferred)</li>
+              </ul>
+
+              <p>Posted 30+ days ago</p>
+            </div>
+            <div class="felm">
+              <div id="warning">
+                <h1>Few Seats</h1>
+              </div>
+              <strong><a href="">Python Developer - Fresher</a></strong>
+              <h3>Sanfoundry</h3>
+              <h3>Bengaluru, Karnataka</h3>
+              <div id="btndiv">
+                <button>Full-time</button>
+                <button>Day shift</button>
+              </div>
+              <div id="arrow">
+                <i class="ri-arrow-right-double-line"></i>
+                <h2>Easily apply</h2>
+              </div>
+              <ul>
+                <li type="circle">
+                  The Python Developer will be responsible for designing,
+                  developing, and implementing software solutions using Python
+                  programming language
+                </li>
+
+                <li type="circle">Internship Types: Regular</li>
+                <li type="circle">Total work: 6 months(Preferred)</li>
+              </ul>
+
+              <p>Posted 30+ days ago</p>
+            </div>
+            <div class="felm">
+              <div id="warning">
+                <h1>Hiring multiple candidates</h1>
+              </div>
+              <strong><a href="">Vue JS Developer </a></strong>
+              <h3>Ok Software Solutions</h3>
+              <h3>Delhi, Delhi</h3>
+              <div id="btndiv">
+                <button>₹1,00,000 - ₹3,00,000 a year</button>
+                <button>Full-time</button>
+                <button>Day shift</button>
+              </div>
+              <div id="arrow">
+                <i class="ri-arrow-right-double-line"></i>
+                <h2>Easily apply</h2>
+              </div>
+              <ul>
+                <li type="circle">
+                  Good understanding of client-side scripting and advanced
+                  JavaScript libraries/frameworks, such as VueJS,
+                </li>
+
+                <li type="circle">Internship Types: Regular</li>
+                <li type="circle">Total work: 6 months(Preferred)</li>
+              </ul>
+
+              <p>Posted 30+ days ago</p>
+            </div>
+            <div class="felm">
+              <div id="warning">
+                <h1>Hiring multiple candidates</h1>
+              </div>
+              <strong><a href="">ReactJS Developer</a></strong>
+              <h3>Easy Entrance Pvt. Ltd.</h3>
+              <h3>Calicut, Kerala</h3>
+              <div id="btndiv">
+                <button>Full-time</button>
+                <button>Day shift</button>
+              </div>
+              <div id="arrow">
+                <i class="ri-arrow-right-double-line"></i>
+                <h2>Easily apply</h2>
+              </div>
+              <ul>
+                <li type="circle">React/React Native(Intrested)</li>
+                <li type="circle">
+                  Should have thorough knowledge in HTML,CSS,Javascript.
+                </li>
+                <li type="circle">Internship Types: Regular</li>
+                <li type="circle">Total work: 6 months(Preferred)</li>
+              </ul>
+
+              <p>Posted 30+ days ago</p>
+            </div>
+            <div id="last" class="felm">
+              <div id="warning">
+                <h1>Hiring multiple candidates</h1>
+              </div>
+              <strong><a href="">React JS Intern</a></strong>
+              <h3>Easy Entrance Pvt. Ltd.</h3>
+              <h3>Calicut, Kerala</h3>
+              <div id="btndiv">
+                <button>Full-time</button>
+                <button>Day shift</button>
+              </div>
+              <div id="arrow">
+                <i class="ri-arrow-right-double-line"></i>
+                <h2>Easily apply</h2>
+              </div>
+              <ul>
+                <li type="circle">React/React Native(Intrested)</li>
+                <li type="circle">
+                  Should have thorough knowledge in HTML,CSS,Javascript.
+                </li>
+                <li type="circle">Internship Types: Regular</li>
+                <li type="circle">Total work: 6 months(Preferred)</li>
+              </ul>
+
+              <p>Posted 30+ days ago</p>
+            </div>
+          </div>
+          <div id="fright">
+            <div class="images">
+              <h1>Intern React UI Developer</h1>
+              <a href="">F1studioz</a>
+              <h2>Bengaluru, Karnatak</h2>
+              <div id="buttond">
+                <button>Apply Job</button>
+                <a href=""><i class="ri-save-line"></i></a>
+                <a href=""><i class="ri-prohibited-line"></i></a>
+              </div>
+            </div>
+            <div id="second">
+              <h1>Location</h1>
+              <div id="add">
+                <i class="ri-map-pin-fill"></i>
+                <h3>Sodala, Jaipur, Rajasthan</h3>
+              </div>
+              <hr />
+              <ul>
+                <li>
+                  Developing and maintaining all server-side network components.
+                </li>
+                <li>
+                  Ensuring optimal performance of the central database and
+                  responsiveness to front-end requests.
+                </li>
+                <li>
+                  Collaborating with front-end developers on the integration of
+                  elements.
+                </li>
+                <li>
+                  Designing customer-facing UI and back-end services for various
+                  business processes.
+                </li>
+                <li>
+                  Developing high-performance applications by writing testable,
+                  reusable, and efficient code.
+                </li>
+                <li>
+                  Implementing effective security protocols, data protection
+                  measures, and storage solutions.
+                </li>
+                <li>
+                  Running diagnostic tests, repairing defects, and providing
+                  technical support.
+                </li>
+                <li>
+                  Documenting Node.js processes, including database schemas, as
+                  well as preparing reports
+                </li>
+                <li>
+                  Recommending and implementing improvements to processes and
+                  technologies.
+                </li>
+                <li>
+                  Keeping informed of advancements in the field of Node.js
+                  development.
+                </li>
+              </ul>
+              <h3>Job Types: Full-time, Fresher, Internship</h3>
+              <h3>Salary: From ₹3,000.00 per month</h3>
+              <h3>Schedule:</h3>
+              <ul>
+                <li>Day shift</li>
+                <li>Fixed shift</li>
+                <li>Morning shift</li>
+              </ul>
+              <h3>Ability to commute/relocate:</h3>
+              <ul>
+                <li>
+                  Sodala, Jaipur, Rajasthan: Reliably commute or planning to
+                  relocate before starting work (Required)
+                </li>
+              </ul>
+              <h2>Speak with the employer</h2>
+              <a href="">+91 xxxxxxxx</a>
+              <button>Report Job</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="Categories">
+        <h1>Latest internships</h1>
+        <div id="popular">
+          <h2>POPULAR CATEGORIES:</h2>
+          <button>Big brands</button>
+          <button>Work form home</button>
+          <button>Part-time</button>
+          <button>MBA</button><button>Engineering</button>
+          <button>Media</button>
+          <button>Desgin</button>
+          <button>Data_Science</button>
+        </div>
+      </div>
+    </div>
+    <div class="logos">
+      <h1>Top companies trust us</h1>
+      <div class="logos-slide">
+        <img src="facebook-7.svg" />
+        <img src="google-1-1.svg" />
+        <img src="microsoft-6.svg" />
+        <img src="logo-amazon.svg" />
+        <img src="netflix-3.svg" />
+        <img src="apple-11.svg" />
+        <img src="xiaomi-1.svg" />
+        <img src="huawei.svg" />
+      </div>
+      <div class="logos-slide">
+        <img src="facebook-7.svg" />
+        <img src="google-1-1.svg" />
+        <img src="microsoft-6.svg" />
+        <img src="logo-amazon.svg" />
+        <img src="netflix-3.svg" />
+        <img src="apple-11.svg" />
+        <img src="xiaomi-1.svg" />
+        <img src="huawei.svg" />
+      </div>
+    </div>
+    <footer id="foo" class="container-fluid">
+      <div class="foocon">
+        <div class="foocol">
+          <div class="foolist">
+            <h5>Internships by places</h5>
+            <div class="listitm"><a href="">Internship in India</a></div>
+            <div class="listitm"><a href="">Internship in Delhi</a></div>
+            <div class="listitm"><a href="">Internship in Bangalore</a></div>
+            <div class="listitm"><a href="">Internship in Hyderabad</a></div>
+            <div class="listitm"><a href="">Internship in Mumbai</a></div>
+            <div class="listitm"><a href="">Internship in Chennai</a></div>
+            <div class="listitm"><a href="">Internship in Gurgaon</a></div>
+            <div class="listitm"><a href="">Internship in Kolkata</a></div>
+            <div class="listitm"><a href="">Virtual Internship</a></div>
+          </div>
+        </div>
+        <div class="foocol">
+          <div class="foolist">
+            <h5>Internship by Stream</h5>
+            <div class="listitm">
+              <a href="">Computer Science Internship</a>
+            </div>
+            <div class="listitm"><a href="">Electronics Internship</a></div>
+            <div class="listitm"><a href="">Mechanical Internship</a></div>
+            <div class="listitm"><a href="">Civil Internship</a></div>
+            <div class="listitm"><a href="">Marketing Internship</a></div>
+            <div class="listitm"><a href="">Chemical Internship</a></div>
+            <div class="listitm"><a href="">Finance Internship</a></div>
+            <div class="listitm"><a href="">Summer Research Fellowship</a></div>
+            <div class="listitm"><a href="">Campus Ambassador Program</a></div>
+          </div>
+        </div>
+        <div class="foocol">
+          <div class="foolist">
+            <h5>Online Trainings <span>CONTEST</span></h5>
+            <div class="listitm"><a href="">Programming with Python</a></div>
+            <div class="listitm"><a href="">Digital Marketing</a></div>
+            <div class="listitm"><a href="">Web Development</a></div>
+            <div class="listitm"><a href="">Machine Learning</a></div>
+            <div class="listitm"><a href="">Advanced Excel</a></div>
+            <div class="listitm"><a href="">Ethical Hacking </a></div>
+            <div class="listitm"><a href="">AutoCAD</a></div>
+            <div class="listitm"><a href="">Creative Writing</a></div>
+          </div>
+          <div class="listitm"><a href="">Data Science</a></div>
+        </div>
+        <div class="foocol">
+          <div class="foolist">
+            <h5>About Internshala</h5>
+            <div class="listitm"><a href="">About us</a></div>
+            <div class="listitm"><a href="">We're hiring</a></div>
+            <div class="listitm">
+              <a href=""> Hire interns for your company</a>
+            </div>
+            <div class="listitm"><a href="">Team Diary</a></div>
+            <div class="listitm"><a href="">Blog</a></div>
+            <div class="listitm"><a href="">Our Services</a></div>
+            <div class="listitm"><a href="">Terms & Conditions</a></div>
+            <div class="listitm"><a href="">Privacy</a></div>
+            <div class="listitm"><a href="">Contact us</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="foo2">
+        <a
+          href="https://play.google.com/store/apps/details?id=com.internshala.app&referrer=utm_source%3Dplay_footer"
+        >
+          <div class="andlistitm">
+            <img src="Google_Play-Icon-Logo.wine.svg" alt="" />
+            <span>Get Android App</span>
+          </div>
+        </a>
+        <div class="socialsbox">
+          <a href="#"
+            ><img
+              class="socimg"
+              src="./assets/socials/icons8-instagram-logo.svg"
+              alt=""
+          /></a>
+          <a href="#"
+            ><img
+              class="socimg"
+              src="./assets/socials/icons8-twitter.svg"
+              alt=""
+          /></a>
+          <a href="#"
+            ><img class="socimg" src="./assets/socials/youtube.png" alt=""
+          /></a>
+          <a href="#"
+            ><img
+              class="socimg"
+              src="./assets/socials/icons8-linkedin-2.svg"
+              alt=""
+          /></a>
+        </div>
+      </div>
+      <br />
+      <br />
+    </footer>
+    <script>
+
+      var copy = document.querySelector(".logos-slide").cloneNode(true);
+      document.querySelector(".logos").appendChild(copy);
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/sheryjs/dist/Shery.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
